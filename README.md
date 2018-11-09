@@ -9,16 +9,16 @@ We are going to consider the Multiprocessor Scheduling Problem (MPSP) as an opti
 * Pseudocode:
 Genetic algorithm begins with a set of k randomly generated states, called the population. Each state, or individual, is represented as (X and Y), then each individual is rated by the fitness function, if one of the individuals is the goal then the algorithm stops. else select from the states using selection function and generate new solution by the crossover function and the mutation function. The algorithm keeps repeating this process until population has converged.
 
-fitness function: 
+  fitness function: 
 Determines how fit an individual by calculating the difference of the sum of values in X minus the sum of values in Y.
 
-Selection function:
+  Selection function:
 Two pairs of individuals are selected based on their fitness scores. Individuals with lower value fitness have more chance to be selected for reproduction.
 
-Crossover function:
+  Crossover function:
 A crossover point is chosen at random from within the genes, then the Offspring are created by exchanging the genes of parents among themselves until the crossover point is reached. Then the new offspring are added to the population.
 
-mutation function:
+  mutation function:
 In certain new offspring formed, it will flip some Y’s to x and some X’s to Y.
 
 * Implementation: 
