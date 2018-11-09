@@ -23,7 +23,7 @@ public class GeneticAlgorithm {
         FileInputStream in = null;
 
       try {
-         in = new FileInputStream("MPSP_51.txt"); //text file to test !!
+         in = new FileInputStream("MPSP_35.txt"); //text file to test !!
 
           Scanner scanner = new Scanner(in);
           scanner.useDelimiter("\\D");
