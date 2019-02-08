@@ -29,4 +29,4 @@ The main class (Genetic Algorithm) contains three objects, an array list of jobs
 
 ...One of my favourite projects!
 
-<b>* Don't copy the project as your own *</b>
+<b>* Don't copy the project as your own! *</b>
