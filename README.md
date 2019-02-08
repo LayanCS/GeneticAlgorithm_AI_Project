@@ -28,5 +28,3 @@ The population class contains a set of functions that calculate the most optimal
 The main class (Genetic Algorithm) contains three objects, an array list of jobs, and five other functions.
 
 ...One of my favourite projects!
-
-<b>* Don't copy the project as your own! *</b>
